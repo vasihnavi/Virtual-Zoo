@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Zoo - Iguana</title>
+    <link rel="stylesheet" href="r3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Headland+One&family=Parkinsans:wght@300&family=Sofadi+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-icon"><i class="fas fa-paw"></i></span>
+            <span class="logo-text">Virtual Zoo</span>
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <div class="parallax-inner">
+            <h1>Iguana</h1>
+            <h3><i>Iguana iguana</i></h3>
+            <button id="iguana-sound" class="sound-button">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="fun-facts">
+        <h2>Did You Know?</h2>
+        <div class="facts-grid">
+            <div class="fact">
+                <i class="fas fa-paw"></i>
+                <p>Iguanas can detach their tails to escape predators!</p>
+            </div>
+            <div class="fact">
+                <i class="fas fa-paw"></i>
+                <p>They have a third "eye" on their heads for sensing light and movement.</p>
+            </div>
+            <div class="fact">
+                <i class="fas fa-paw"></i>
+                <p>Some iguanas can hold their breath for up to 30 minutes underwater.</p>
+            </div>
+            <div class="fact">
+                <i class="fas fa-paw"></i>
+                <p>Green iguanas are excellent swimmers and use their long tails to propel themselves.</p>
+            </div>
+            <div class="fact">
+                <i class="fas fa-paw"></i>
+                <p>Their sharp teeth are used to shred plant material.</p>
+            </div>
+            <div class="fact">
+                <i class="fas fa-paw"></i>
+                <p>Iguanas can change their body color to regulate temperature or for camouflage.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-slider-section">
+        <div class="slider">
+            <h1 class="slider-heading">Know More About Us!</h1>
+            <!-- list Items -->
+            <div class="list">
+                <div class="item active">
+                    <img src="images/r3a.jpeg">
+                    <div class="content">
+                        <h2>Physical Characteristics</h2>
+                        <p>
+                            <strong>Size:</strong> Green iguanas grow up to 5-6 feet long, including their tail.<br>
+                            <strong>Weight:</strong> Can weigh up to 11 pounds.<br>
+                            <strong>Features:</strong> Scaly skin, long tails, spines along their backs, and a dewlap under their chin.<br>
+                            <strong>Color:</strong> Usually green but may vary to brown or orange.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/r3b.jpg">
+                    <div class="content">
+                        <h2>Diet and Feeding Habits</h2>
+                        <p>
+                            <strong>Diet:</strong> Herbivores, primarily eating leaves, fruits, and flowers.<br>
+                            <strong>Behavior:</strong> Forages during the day and relies on sharp teeth for chewing tough plant material.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/r3c.jpg">
+                    <div class="content">
+                        <h2>Habitat and Distribution</h2>
+                        <p>
+                            <strong>Habitat:</strong> Tropical rainforests, mangroves, and riverside areas.<br>
+                            <strong>Range:</strong> Found in Central and South America and some Caribbean islands.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/r3.jpg">
+                    <div class="content">
+                        <h2>Lifespan and Reproduction</h2>
+                        <p>
+                            <strong>Lifespan:</strong> Live up to 15-20 years in captivity; slightly less in the wild.<br>
+                            <strong>Reproduction:</strong> Females lay 20-70 eggs in burrows; eggs hatch after 90 days.<br>
+                            <strong>Behavior:</strong> Hatchlings are independent from birth and must fend for themselves.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- thumbnail -->
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="images/r3a.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/r3b.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/r3c.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/r3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <audio id="iguanaAudio" src="audio/iguana.mp3"></audio>
+
+    <script src="animals.js"></script>
+
+</body>
+
+</html>

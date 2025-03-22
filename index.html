@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Zoo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300&family=Sofadi+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollSmoother.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-icon"><i class="fas fa-paw"></i></span>
+            <span class="logo-text">Virtual Zoo</span>
+        </a>
+        <nav class="navbar">
+            <a href="#wrapper">Home</a>
+            <a href="#gallery-section">Gallery</a>
+            <a href="#animals">Animals</a>
+            <a href="#about-us">About</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+    </header>
+    <div class="wrapper" id="wrapper">
+        <div class="content">
+            <section class="parallax">
+                <img src="images/lastlayer.jpg" id="bg">
+                <img src="images/layer-middle2.png" id="creatures">
+                <img src="images/grass.png" id="grass">
+                <h2 id="text">Virtual Zoo</h2>
+            </section>
+
+            <section class="gallery-section" id="gallery-section">
+                <h2>Gallery</h2>
+                <div class="Gallery-slider">
+                    <!-- Left Scrolling Track -->
+                    <div class="slider-track">
+                        <div class="slide"><img src="images/1.jpg" alt="Image 1" /></div>
+                        <div class="slide"><img src="images/2.png" alt="Image 2" /></div>
+                        <div class="slide"><img src="images/3.jpg" alt="Image 3" /></div>
+                        <div class="slide"><img src="images/4.png" alt="Image 4" /></div>
+                        <div class="slide"><img src="images/5.jpg" alt="Image 5" /></div>
+                        <div class="slide"><img src="images/6.jpg" alt="Image 6" /></div>
+                        <div class="slide"><img src="images/7.jpg" alt="Image 7" /></div>
+                        <div class="slide"><img src="images/8.jpg" alt="Image 8" /></div>
+                        <div class="slide"><img src="images/9.png" alt="Image 9" /></div>
+                        <div class="slide"><img src="images/10.jpg" alt="Image 10" /></div>
+
+
+                        <div class="slide"><img src="images/1.jpg" alt="Image 1" /></div>
+                        <div class="slide"><img src="images/2.png" alt="Image 2" /></div>
+                        <div class="slide"><img src="images/3.jpg" alt="Image 3" /></div>
+                        <div class="slide"><img src="images/4.png" alt="Image 4" /></div>
+                        <div class="slide"><img src="images/5.jpg" alt="Image 5" /></div>
+                        <div class="slide"><img src="images/6.jpg" alt="Image 6" /></div>
+                        <div class="slide"><img src="images/7.jpg" alt="Image 7" /></div>
+                        <div class="slide"><img src="images/8.jpg" alt="Image 8" /></div>
+                        <div class="slide"><img src="images/9.png" alt="Image 9" /></div>
+                        <div class="slide"><img src="images/10.jpg" alt="Image 10" /></div>
+                    </div>
+
+                    <!-- Right Scrolling Track -->
+                    <div class="slider-track-right">
+                        <div class="slide"><img src="images/11.png" alt="Image 11" /></div>
+                        <div class="slide"><img src="images/12.jpg" alt="Image 12" /></div>
+                        <div class="slide"><img src="images/13.jpg" alt="Image 13" /></div>
+                        <div class="slide"><img src="images/14.png" alt="Image 14" /></div>
+                        <div class="slide"><img src="images/15.jpg" alt="Image 15" /></div>
+                        <div class="slide"><img src="images/16.jpg" alt="Image 16" /></div>
+                        <div class="slide"><img src="images/17.jpg" alt="Image 17" /></div>
+                        <div class="slide"><img src="images/18.jpg" alt="Image 18" /></div>
+                        <div class="slide"><img src="images/19.jpg" alt="Image 19" /></div>
+                        <div class="slide"><img src="images/20.jpg" alt="Image 20" /></div>
+
+                        <div class="slide"><img src="images/11.png" alt="Image 11" /></div>
+                        <div class="slide"><img src="images/12.jpg" alt="Image 12" /></div>
+                        <div class="slide"><img src="images/13.jpg" alt="Image 13" /></div>
+                        <div class="slide"><img src="images/14.png" alt="Image 14" /></div>
+                        <div class="slide"><img src="images/15.jpg" alt="Image 15" /></div>
+                        <div class="slide"><img src="images/16.jpg" alt="Image 16" /></div>
+                        <div class="slide"><img src="images/17.jpg" alt="Image 17" /></div>
+                        <div class="slide"><img src="images/18.jpg" alt="Image 18" /></div>
+                        <div class="slide"><img src="images/19.jpg" alt="Image 19" /></div>
+                        <div class="slide"><img src="images/20.jpg" alt="Image 20" /></div>
+
+                    </div>
+                </div>
+            </section>
+            </section>
+
+
+
+            <section class="animals" id="animals">
+                <h2 class="heading">Animals</h2>
+                <h3 class="category-heading">Mammals</h3>
+                <div class="swiper animal-slider">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide card">
+                            <img src="images/m1.jpg" alt="m1">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Lion</h4>
+                                    <p><strong>Scientific Name:</strong> Panthera leo</p>
+                                    <p><strong>Fun Fact:</strong> Lions are the only cats that live in groups, called
+                                        prides.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='m1.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/m2.jpg" alt="m2">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Giant Panda</h4>
+                                    <p><strong>Scientific Name:</strong> Ailuropoda melanoleuca</p>
+                                    <p><strong>Fun Fact:</strong> Giant pandas spend about 12 hours a day eating bamboo,
+                                        which makes up 99% of their diet.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='m2.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/m5.jpeg" alt="m5">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Asian Elephant</h4>
+                                    <p><strong>Scientific Name:</strong>Elephas maximus</p>
+                                    <p><strong>Fun Fact:</strong> Asian elephants are smaller than African elephants but
+                                        have larger ears and are known for their intelligence and strong family bonds.
+                                    </p>
+                                </div>
+                                <button class="action-button" onclick="location.href='m5.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/m3.jpg" alt="m3">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Chimpanzee</h4>
+                                    <p><strong>Scientific Name:</strong> Pan troglodytes</p>
+                                    <p><strong>Fun Fact:</strong>Chimpanzees share about 98% of their DNA with humans,
+                                        making them one of our closest relatives.</p>
+                                </div>
+                                <button class="action-button">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/m4.jpeg" alt="m4">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Giraffe</h4>
+                                    <p><strong>Scientific Name:</strong> Giraffa camelopardalis</p>
+                                    <p><strong>Fun Fact:</strong> :Giraffes are the tallest land animals, with some
+                                        males growing up to 18 feet tall.</p>
+                                </div>
+                                <button class="action-button">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <!-- Birds Section -->
+                <h3 class="category-heading">Birds</h3>
+                <div class="swiper animal-slider">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide card">
+                            <img src="images/b1.png" alt="bald eagle">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Bald Eagle</h4>
+                                    <p><strong>Scientific Name:</strong> Haliaeetus leucocephalus</p>
+                                    <p><strong>Fun Fact:</strong> The bald eagle, a symbol of freedom, can spot prey
+                                        from over a mile away thanks to its incredible eyesight.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='animals/b1.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/b2.jpg" alt="scarlet macaw">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Scarlet Macaw</h4>
+                                    <p><strong>Scientific Name:</strong> Ara macao</p>
+                                    <p><strong>Fun Fact:</strong> Scarlet macaws can live up to 50 years and are known
+                                        for their ability to mimic sounds, including human speech.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='b2.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/b3.jpeg" alt="emperor penguin">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Emperor Penguin</h4>
+                                    <p><strong>Scientific Name:</strong> Aptenodytes forsteri</p>
+                                    <p><strong>Fun Fact:</strong> Emperor penguins are the tallest and heaviest of all
+                                        penguin species, and they can dive up to 1,800 feet in search of food.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='b3.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/b4.jpeg" alt="peacock">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Peacock</h4>
+                                    <p><strong>Scientific Name:</strong> Pavo cristatus</p>
+                                    <p><strong>Fun Fact:</strong> Male peacocks fan out their stunning iridescent tail
+                                        feathers to attract females during courtship displays.</p>
+                                </div>
+                                <button class="action-button">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/b5.jpeg" alt="flamingo">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Flamingo</h4>
+                                    <p><strong>Scientific Name:</strong> Phoenicopterus roseus</p>
+                                    <p><strong>Fun Fact:</strong> Flamingos get their pink color from their diet, which
+                                        is rich in beta-carotene found in algae and crustaceans.</p>
+                                </div>
+                                <button class="action-button">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <!-- Reptiles Section -->
+                <h3 class="category-heading">Reptiles</h3>
+                <div class="swiper animal-slider">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide card">
+                            <img src="images/r1.jpeg" alt="komodo dragon">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Komodo Dragon</h4>
+                                    <p><strong>Scientific Name:</strong> Varanus komodoensis</p>
+                                    <p><strong>Fun Fact:</strong> Komodo dragons are the largest lizards on Earth and
+                                        can take down prey much larger than themselves thanks to their venomous bite.
+                                    </p>
+                                </div>
+                                <button class="action-button" onclick="location.href='r1.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/r2.jpg" alt="turtle">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Turtle</h4>
+                                    <p><strong>Scientific Name:</strong> Testudines</p>
+                                    <p><strong>Fun Fact:</strong> Turtles have been around for over 200 million years,
+                                        and some species can live over 100 years.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='r2.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/r3.jpg" alt="iguana">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Iguana</h4>
+                                    <p><strong>Scientific Name:</strong> Iguana iguana</p>
+                                    <p><strong>Fun Fact:</strong> Iguanas have a third eye on their heads called the
+                                        parietal eye, which helps detect changes in light and shadows.</p>
+                                </div>
+                                <button class="action-button" onclick="location.href='r3.html'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/r4.jpeg" alt="american alligator">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>American Alligator</h4>
+                                    <p><strong>Scientific Name:</strong> Alligator mississippiensis</p>
+                                    <p><strong>Fun Fact:</strong> American alligators have been around for over 200
+                                        million years, making them living dinosaurs.</p>
+                                </div>
+                                <button class="action-button">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <img src="images/r5.jpeg" alt="leopard gecko">
+                            <div class="overlay">
+                                <div class="info">
+                                    <h4>Leopard Gecko</h4>
+                                    <p><strong>Scientific Name:</strong> Eublepharis macularius</p>
+                                    <p><strong>Fun Fact:</strong> Leopard geckos are one of the few gecko species that
+                                        have eyelids and can close their eyes completely.</p>
+                                </div>
+                                <button class="action-button">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+
+            <section class="quiz" id="quiz">
+                <h2 class="heading">Quiz Your Knowledge!</h2>
+                <div class="quiz-container">
+                    <img src="images/DeWatermark.ai_1732082698917-removebg-preview.png" alt="Quiz Image"
+                        class="quiz-image">
+                    <div class="quiz-content">
+                        <p>Test your knowledge about animals and explore fascinating facts!</p>
+                        <a href="quiz.html" class="quiz-button">Start Quiz</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us" id="about-us">
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>
+                        Virtual Zoo, your gateway to exploring the wonders of wildlife from the comfort of your home!
+                    </p>
+                    <p>
+                        Our mission is to educate, inspire, and connect people with the animal kingdom through an
+                        immersive online experience. Discover diverse ecosystems, learn about fascinating creatures, and
+                        explore the beauty of nature—all while fostering awareness about conservation.
+                    </p>
+                    <p>
+                        Join us in celebrating and protecting the incredible diversity of life on Earth. Welcome to the
+                        Virtual Zoo!
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/environmental-concept-paper-style_23-2148433706-removebg-preview.png"
+                        alt="About Us">
+                </div>
+            </section>
+            <section class="feedback-section" id="Contact">
+                <h1>We Value Your Feedback!</h1>
+                <div class="feedback-box">
+                    <form action="https://formsubmit.co/vini14gaming@gmail.com" method="POST">
+
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="msg" required placeholder="Share your thoughts"></textarea>
+
+                        <button type="submit">Submit Feedback</button>
+                    </form>
+                </div>
+            </section>
+
+
+
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>Contact Us</h3>
+                        <p>Email: info@virtualzoo.com</p>
+                        <p>Phone: 6268******</p>
+                        <p>Address: Maroda Sector, Durg Water Treatment Plant Near to Maroda, Bhilai, Chhattisgarh
+                            490006</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Newsletter</h3>
+                        <form action="#" method="POST" class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subscribe-button">Subscribe</button>
+                        </form>
+                        <p>Stay updated with our latest news!</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <script src="script.js"></script>
+</body>
+
+</html>
